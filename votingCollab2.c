@@ -27,5 +27,5 @@ void displayAllCandidate(struct Candidate cnd[],int size)
     {
         printf("\n\n%s\t\t\t%c\n",cnd[i].name,cnd[i].symbol);//print statement
     }
-    getVotes(cnd,size);//call getVotes
+    getVotes(cnd,size);//call getVotes//
 }
