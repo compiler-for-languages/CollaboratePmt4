@@ -14,7 +14,7 @@ scanf("  %c",&v);
     }
   printf("\nTHANK YOU, YOUR VALUABLE VOTE HAS BEEN RECORDED..you can go\n\n");
   printf("PRESS 'R' FOR RESULT 0R 'C' TO CAST VOTE\n");
-  scanf("  %c",&o);
+  scanf("  %c",&o);//
     if(o=='C')
     {
         displayAllCandidate(cnd,size);
