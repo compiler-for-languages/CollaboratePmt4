@@ -25,7 +25,7 @@ void displayAllCandidate(struct Candidate cnd[],int size)
     for(i=0;i<size;i=i+1)
 
     {
-        printf("\n\n%s\t\t\t%c\n",cnd[i].name,cnd[i].symbol);
+        printf("\n\n%s\t\t\t%c\n",cnd[i].name,cnd[i].symbol);//print statement
     }
     getVotes(cnd,size);
 }
