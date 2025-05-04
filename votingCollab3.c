@@ -34,7 +34,7 @@ void getResult(struct Candidate cnd[],int size)
     {max=cnd[i].votes;
       count=i;  }
     }
-    printf("%s is the WINNER with %d votes\n",cnd[count].name,max);
+    printf("%s is the WINNER with %d votes\n",cnd[count].name,max);//
 
 }
 
