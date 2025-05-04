@@ -17,7 +17,7 @@ void fillCandidate(struct Candidate cnd[])
     }
  displayAllCandidate(cnd,size);
 }
-void displayAllCandidate(struct Candidate cnd[],int size)
+void displayAllCandidate(struct Candidate cnd[],int size)//
 {
     int i;
     printf("-----------------------------------\n\n");
