@@ -3,7 +3,7 @@ main()
     fillCandidate(cnd);
 
 }
-void fillCandidate(struct Candidate cnd[])
+void fillCandidate(struct Candidate cnd[])//function fillCandidate
 {
     int i,size;
     printf("Enter the no. of candidates\n");
