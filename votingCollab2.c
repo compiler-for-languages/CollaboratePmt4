@@ -1,6 +1,6 @@
 main()
 {
-    fillCandidate(cnd);
+    fillCandidate(cnd);//
 
 }
 void fillCandidate(struct Candidate cnd[])//function fillCandidate
