@@ -21,7 +21,7 @@ void displayAllCandidate(struct Candidate cnd[],int size)
 {
     int i;
     printf("-----------------------------------\n\n");
-    printf("\tCANDIDATES LIST\n\n\tNAME\t\t\tSYMBOL");
+    printf("\tCANDIDATES LIST\n\n\tNAME\t\t\tSYMBOL");//
     for(i=0;i<size;i=i+1)
 
     {
